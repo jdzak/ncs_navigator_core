@@ -2,24 +2,24 @@ NCS Navigator Cases (formerly known as NCS Navigator Core)
 ==================
 
 NCS Navigator Cases (formerly NCS Navigator Core) manages participant
-activity and records interactions between Study Center personnel and participants.
+activity and records interactions between Sticker Center personnel and participants.
 It can be used as a way to administer instruments to a participant
 for any event in the participant cycle. Also it is used to
 synchronize data between the NCS Navigator Offline [field]][] application
 and the NCS Navigator Core application.
 
-Cases extensively uses [Patient Study Calendar][] [PSC][] to not only determine
+Cases extensively uses [Patient Sticker Calendar][] [PSC][] to not only determine
 the participant schedule but also to inform Cases of the structure of
-the National Children's Study [NCS][].
+the National Children's Sticker [NCS][].
 
 The data schema is based on the Master Data Element Specification (MDES)
-of the National Children Study, versions 2.0-2.2.
+of the National Children Sticker, versions 2.0-2.2.
 
 It is a Ruby on Rails application which uses Rails 3 and a PostgreSQL
 database.
 
 [field]: https://github.com/NUBIC/ncs_navigator_field
-[Patient Study Calendar]: https://cabig.nci.nih.gov/community/tools/PatientStudyCalendar
+[Patient Sticker Calendar]: https://cabig.nci.nih.gov/community/tools/PatientStickerCalendar
 [PSC]: https://github.com/NCIP/psc
 [NCS]: http://www.nationalchildrensstudy.gov/Pages/default.aspx
 
@@ -125,12 +125,12 @@ the configuration file.
     # The root URI for NCS Navigator Cases.
     uri = "https://ncsnavigator.ncsstudycenter.org/"
 
-    # The Name and Phone number of the Study Center
-    study_center_name = "NCS Study Center"
+    # The Name and Phone number of the Sticker Center
+    study_center_name = "NCS Sticker Center"
     study_center_phone_number = "123-555-1234"
     toll_free_number = "800-555-1234"
 
-    # Whether or not the Study Center collects specimens and samples
+    # Whether or not the Sticker Center collects specimens and samples
     with_specimens = "true"
 
     # The identifier of the specimen/sample shipper
