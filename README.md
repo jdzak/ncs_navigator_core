@@ -1,5 +1,5 @@
 NCS Navigator Cases (formerly known as NCS Navigator Core)
-==================
+=====================
 
 NCS Navigator Cases (formerly NCS Navigator Core) manages participant
 activity and records interactions between Sticker Center personnel and participants.
